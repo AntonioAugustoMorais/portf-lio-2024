@@ -8,7 +8,7 @@ const navbar = () => {
       <div className="flex flex-shrink-0 items-center">
         <img className="size-24" src={logo} alt="logo" />
       </div>
-      <div className="flex  gap-4">
+      {/* <div className="flex  gap-4">
         <motion.button
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 1.1 }}
@@ -33,7 +33,7 @@ const navbar = () => {
           class="text-sm py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75">
           Projetos
         </motion.button>
-      </div>
+      </div> */}
       <div className="m-8 flex items-center justify-center gap-4 tex text-2xl">
         <LinkedinLogo size={24} />
         <GithubLogo size={24} />
